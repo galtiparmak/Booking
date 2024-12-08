@@ -61,6 +61,7 @@ public class ImageService {
             }
             if (set.contains(path)) {
                 System.out.println("Image is already uploaded");
+                continue;
             }
             Image image = Image
                     .builder()
